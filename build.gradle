@@ -6,6 +6,7 @@ buildscript {
         maven {
             url "https://jcenter.bintray.com"
         }
+        mavenCentral()
     }
 
     dependencies {
@@ -20,5 +21,6 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        mavenCentral()
     }
 }
